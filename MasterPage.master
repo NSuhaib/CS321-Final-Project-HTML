@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Northeastern Media Services</title>
+    <link href="Styles/MasterPage.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="head1">
+        <div id="icon1">
+            <img id="icon" src="/Images/NEIU.png" alt="Images" height="200" width="200" />
+        </div>
+
+        <h1>University Technology Services
+            <br />
+            DEPARTMENT OF MEDIA SERVICES</h1>
+    </div>
+
+
+
+    <form id="form1" runat="server">
+
+        <br />
+        <br />
+        <br />
+        <asp:LinkButton ID="lnkLogin" Visible="true" runat="server" Text="Login" OnClick="lnkLogin_Click" CausesValidation="false">
+
+        </asp:LinkButton>
+
+        <asp:LinkButton ID="lnkLogout" Visible="false" runat="server" Text="Logout" OnClick="lnkLogout_Click" CausesValidation="false">
+
+        </asp:LinkButton>
+
+
+
+        <asp:LoginView runat="server">
+            <LoggedInTemplate>
+                Welcome
+                <asp:LoginName runat="server" />
+            </LoggedInTemplate>
+        </asp:LoginView>
+
+
+
+
+
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+        <%--<asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1"></asp:TreeView>--%>
+
+        <div id="menu">
+            <asp:SiteMapDataSource ID="SiteMapDataSource2" runat="server" />
+            <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1"></asp:Menu>
+            <br />
+            <br />
+            <%--<asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1"></asp:TreeView>--%>
+        </div>
+        <asp:ContentPlaceHolder ID="welcome" runat="server">
+        </asp:ContentPlaceHolder>
+
+
+    </form>
+</body>
+</html>

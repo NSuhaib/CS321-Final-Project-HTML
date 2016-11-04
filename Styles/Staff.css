@@ -1,0 +1,29 @@
+﻿#pageBlock {
+	margin: 0 auto;
+    width: 90%;
+}
+
+#meet{
+    text-align: center;
+    margin-top: 145px;
+    border-bottom: 2px solid #2554C7;
+}
+
+.staff{
+    width:200px;
+    margin-left:80px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    float: left;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+

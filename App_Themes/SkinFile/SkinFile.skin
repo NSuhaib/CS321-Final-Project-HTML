@@ -1,0 +1,18 @@
+﻿
+<asp:Calendar runat="server" >
+      <DayHeaderStyle BackColor="Black" ForeColor="yellow" Height="1px" />
+      <NextPrevStyle Font-Size="8pt" ForeColor="Yellow" />
+      <OtherMonthDayStyle ForeColor="Blue" />
+      <SelectedDayStyle BackColor="navy" Font-Bold="True" 
+                     ForeColor="yellow" />
+      <SelectorStyle BackColor="#99CCCC" ForeColor="#336666" />
+      <TitleStyle BackColor="Blue" BorderColor="Yellow" BorderWidth="1px" 
+                      Font-Bold="True" Font-Size="10pt" ForeColor="yellow" 
+                      Height="25px" />
+       <TodayDayStyle BackColor="blue" ForeColor="yellow" 
+                      Font-Bold="True" />
+       <WeekendDayStyle BackColor="LightBlue" />
+  </asp:Calendar>
+
+<asp:TextBox runat = "server" ForeColor = "Blue" BackColor = "LightYellow"/>
+

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Homepage.aspx" title="Home"  description="Home">
+
+    <siteMapNode url="~/Staff.aspx" title="Staff"  description="Staff">
+    </siteMapNode>
+    <siteMapNode url="~/StudentAid.aspx" title="Student Aid"  description="Student Aid">
+    </siteMapNode>
+    <siteMapNode url="~/AVassist.aspx" title="AV Assist" description="AV Assist">
+      
+    </siteMapNode>
+    
+   
+
+    <siteMapNode title="Faculty" description="Faculty User Pages">
+    <siteMapNode url="~/Faculty/AVForm.aspx" title="A/V Form"  description="A/V Form">
+    </siteMapNode>
+    <siteMapNode url="~/Faculty/ProfForm.aspx" title="Professor Form"  description="Professor Equipment Loan Form" />
+    <siteMapNode url="~/Faculty/VideoForm.aspx" title="Video Form"  description="Video Form" />
+    </siteMapNode>
+  
+    <siteMapNode title="Student" description="Student Forms">
+    <siteMapNode url="~/Students/StudentForm.aspx" title="Student Form" description="Student Equipment Loan Form"></siteMapNode>
+     <siteMapNode url="~/Students/VideoForm.aspx" title="Video Form"  description="Video Form"/>
+    </siteMapNode>
+
+    <siteMapNode title="Admin" description="Admin Pages">
+      <siteMapNode url="~/AdminPages/AVRequest.aspx" title="AV Request" description="AV Request" />
+        <siteMapNode url="~/AdminPages/ProfRequest.aspx" title="Professor Request" description="Professor Request" />
+          <siteMapNode url="~/AdminPages/StudentRequest.aspx" title="Student Request" description="Student Request" />
+            <siteMapNode url="~/AdminPages/VideoRequest.aspx" title="Video Request" description="Video Request" />
+              <siteMapNode url="~/AdminPages/ManageUsers.aspx" title="Manage Users" description="Manage Users" />
+                <siteMapNode url="~/AdminPages/AddUsers.aspx" title="Add Users" description="Add New Users" />
+        
+      </siteMapNode>
+    </siteMapNode>
+
+</siteMap>

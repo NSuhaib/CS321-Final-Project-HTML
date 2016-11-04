@@ -1,0 +1,44 @@
+﻿#pageBlock {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+#schedule {
+    text-align: center;
+    margin-top: 145px;
+    border-bottom: 2px solid #2554C7;
+}
+
+#center {
+    border: 1px;
+    width: 825px;
+    margin: 25px auto;
+}
+
+#list li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    box-shadow: 15px 15px 5px lightblue;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: .2em .7em;
+    text-align: center;
+}
+
+    th.left, td.left {
+        text-align: left;
+    }
+
+.closed {
+    color: red;
+    background: #DCDCDC;
+}

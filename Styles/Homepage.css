@@ -1,0 +1,46 @@
+﻿#pageBlock {
+	margin: 0 auto;
+    width: 100%;
+}
+
+#siteHeader {
+	margin-bottom: 90px;
+}
+
+#About { /*left side*/
+    margin-left: 5%;
+    margin-top: 5em;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+#officeInfo { /*right side - Office Hr*/
+    margin-top:-32em;
+    text-align:left;
+    margin-left: 75%;
+    font-family: Tahoma, Geneva, sans-serif;
+    width: 250px;
+}
+
+span {
+    color:red;
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+#banner {
+    margin-left: 27%;
+    margin-top: -29em;
+    margin-bottom: 5em;
+}
+
+/*#UpdatePanel1 {
+    border: solid;
+    border-color: blue;
+}*/
+
+.button1bt {
+    background-color: yellow;
+	color: blue;
+	font-weight: bold;
+}

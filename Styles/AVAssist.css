@@ -1,0 +1,27 @@
+﻿#assist{
+    text-align: center;
+    margin-top: 145px;
+    border-bottom: 2px solid #2554C7;
+}
+
+#pdfsDiv{
+    text-align: center;
+}
+
+.pdfs{
+	background-color: #2554C7;
+	margin-right: 37%;
+	font-weight: bold;
+	text-align: center;
+	margin-left: 37%;
+}
+
+.pdfs a {
+	color: gold;
+	text-decoration: none;
+}
+
+#YesNo {
+	margin-top:0em;
+}
+
